@@ -1,9 +1,9 @@
 import React from "react";
 
-const Button = ({type}) => {
+const Table = () => {
     return (
         <>
         </>
     )
 }
-export { Button };
+export { Table };

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import { Table } from '../../components';
 
 const List = () => {
     return (
@@ -9,6 +10,7 @@ const List = () => {
                 <Link to="/Form/new">Adicionar</Link>
                 <Link to="/Form/1">Editar</Link>
             </div>
+            <Table/>
         </div>
     );
 }
