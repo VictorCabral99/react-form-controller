@@ -1,5 +1,3 @@
-import React from "react";
-
 const FormServices = {
     getAllNotes: async () => {
         return {
